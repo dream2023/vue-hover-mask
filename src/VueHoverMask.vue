@@ -13,13 +13,6 @@
 <script>
 export default {
   name: 'VueHoverMask',
-  props: {
-    width: Number,
-    height: Number
-  },
-  data () {
-    return {}
-  },
   methods: {
     handleClick () {
       this.$emit('click')
@@ -37,6 +30,7 @@ export default {
   border-radius: 6px;
   box-sizing: border-box;
   display: inline-block;
+  font-size: 0;
   vertical-align: middle;
 }
 
@@ -52,7 +46,7 @@ export default {
   opacity: 0;
   font-size: 20px;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   transition: opacity 0.3s;
 }
 .vue-hover-mask_action::after {

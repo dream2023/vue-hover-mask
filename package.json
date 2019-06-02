@@ -1,12 +1,26 @@
 {
   "name": "vue-hover-mask",
+  "description": "vue遮罩组件, 当hover上显示遮罩",
   "version": "0.1.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue build -t lib --name vue-hover-mask -d ./dist/ ./src/index.js",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dream2023/vue-hover-mask"
+  },
+  "main": "dist/vue-hover-mask.umd.min.js",
+  "homepage": "https://github.com/dream2023/vue-hover-mask/",
+  "keywords": [
+    "vue-hover-mask",
+    "vue mask",
+    "遮罩组件",
+    "遮罩",
+    "vue 遮罩"
+  ],
   "dependencies": {},
   "devDependencies": {
     "core-js": "^2.6.5",
