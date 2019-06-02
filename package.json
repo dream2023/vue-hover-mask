@@ -1,7 +1,7 @@
 {
   "name": "vue-hover-mask",
   "description": "vue遮罩组件, 当hover上显示遮罩",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
