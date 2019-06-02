@@ -1,4 +1,4 @@
-# vue-ele-mask
+# vue-hover-mask
 
 ## Project setup
 ```
