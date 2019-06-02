@@ -9,9 +9,9 @@
 
 当 hover 上物体时, 显示遮罩
 
-<!-- ## 效果图 -->
+## 效果图
 
-<!-- ![效果图](./public/example.gif) -->
+![效果图](./public/example.gif)
 
 ## 在线示例
 
@@ -48,7 +48,10 @@ export default {
   <!-- click事件 -->
   <vue-hover-mask @click="handleClick">
     <!-- 默认插槽 -->
-    <img src="http://t.cn/Ai9bzF6R" style="width: 200px;height: 200px;" />
+    <img
+      src="http://t.cn/Ai9b5w8V"
+      style="width: 200px;height: 200px;object-fit: cover;"
+    />
     <!-- action插槽 -->
     <template v-slot:action>
       <i class="iconfont zoom"></i>

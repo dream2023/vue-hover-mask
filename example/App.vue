@@ -1,8 +1,8 @@
 <template>
   <vue-hover-mask @click="handleClick">
     <img
-      src="http://t.cn/Ai9bzF6R"
-      style="width: 200px;height: 200px;"
+      src="http://t.cn/Ai9b5w8V"
+      style="width: 200px;height: 200px;object-fit: cover;"
     >
     <template v-slot:action>
       <i class="iconfont zoom"></i>
