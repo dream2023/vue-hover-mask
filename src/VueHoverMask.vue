@@ -52,7 +52,7 @@ export default {
 .vue-hover-mask_action::after {
   display: inline-block;
   content: "";
-  height: 100%;
+  height: 110%; /* 居中 */
   vertical-align: middle;
 }
 .vue-hover-mask_action:hover {
