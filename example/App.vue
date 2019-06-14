@@ -26,6 +26,6 @@ export default {
 <style>
 @import url("//at.alicdn.com/t/font_1223885_a68qqkvtjgr.css");
 .iconfont {
-  font-size: 24px;
+  font-size: 40px;
 }
 </style>
