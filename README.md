@@ -74,7 +74,6 @@ export default {
   @import url('//at.alicdn.com/t/font_1223885_a68qqkvtjgr.css');
 
   .iconfont {
-    padding: 0 10px;
     font-size: 24px;
   }
 </style>
